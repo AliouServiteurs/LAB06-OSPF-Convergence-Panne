@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+<rect width="1100" height="500" rx="18" fill="#f8fafc"/>
+<style>.title{font:bold 25px Arial;fill:#0f172a}.sub{font:bold 19px Arial;fill:#334155}.node{fill:#fff;stroke:#2563eb;stroke-width:3}.txt{font:bold 17px Arial;fill:#0f172a}.small{font:15px Arial;fill:#334155}.ok{stroke:#16a34a;stroke-width:5;fill:none}.bad{stroke:#dc2626;stroke-width:5;stroke-dasharray:10 8;fill:none}</style>
+<text x="550" y="42" text-anchor="middle" class="title">Chemins OSPF avant et après la panne</text>
+<text x="275" y="88" text-anchor="middle" class="sub">Avant la panne</text><text x="825" y="88" text-anchor="middle" class="sub">Après la panne</text>
+<rect x="65" y="145" width="90" height="52" rx="9" class="node"/><text x="110" y="177" text-anchor="middle" class="txt">PC1</text>
+<rect x="195" y="145" width="90" height="52" rx="9" class="node"/><text x="240" y="177" text-anchor="middle" class="txt">R1</text>
+<rect x="325" y="145" width="90" height="52" rx="9" class="node"/><text x="370" y="177" text-anchor="middle" class="txt">R3</text>
+<rect x="455" y="145" width="90" height="52" rx="9" class="node"/><text x="500" y="177" text-anchor="middle" class="txt">PC2</text>
+<path d="M155 171 H195 M285 171 H325 M415 171 H455" class="ok"/>
+<text x="300" y="230" text-anchor="middle" class="small">Via 192.168.30.2</text><text x="300" y="255" text-anchor="middle" class="small">Coût observé : 11</text>
+<rect x="610" y="145" width="90" height="52" rx="9" class="node"/><text x="655" y="177" text-anchor="middle" class="txt">PC1</text>
+<rect x="735" y="145" width="90" height="52" rx="9" class="node"/><text x="780" y="177" text-anchor="middle" class="txt">R1</text>
+<rect x="735" y="260" width="90" height="52" rx="9" class="node"/><text x="780" y="292" text-anchor="middle" class="txt">R2</text>
+<rect x="870" y="260" width="90" height="52" rx="9" class="node"/><text x="915" y="292" text-anchor="middle" class="txt">R3</text>
+<rect x="870" y="365" width="90" height="52" rx="9" class="node"/><text x="915" y="397" text-anchor="middle" class="txt">PC2</text>
+<path d="M700 171 H735 M780 197 V260 M825 286 H870 M915 312 V365" class="ok"/>
+<path d="M825 155 Q870 100 915 260" class="bad"/><text x="930" y="130" text-anchor="middle" class="small">Lien direct coupé</text>
+<text x="820" y="450" text-anchor="middle" class="small">Via 192.168.100.2 — coût observé : 30</text></svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+<rect width="1100" height="500" rx="18" fill="#f8fafc"/>
+<style>.title{font:bold 25px Arial;fill:#0f172a}.label{font:bold 19px Arial;fill:#0f172a}.small{font:15px Arial;fill:#334155}.ip{font:14px monospace;fill:#334155}.node{fill:#fff;stroke:#2563eb;stroke-width:3}.pc{fill:#ecfeff;stroke:#0891b2;stroke-width:2}.line{stroke:#64748b;stroke-width:4;fill:none}</style>
+<text x="550" y="42" text-anchor="middle" class="title">LAB06 — Topologie OSPF à trois routeurs</text>
+<path d="M180 150 L480 350 L780 150 Z" class="line"/><path d="M180 150 L780 150" class="line"/>
+<circle cx="180" cy="150" r="42" class="node"/><circle cx="480" cy="350" r="42" class="node"/><circle cx="780" cy="150" r="42" class="node"/>
+<text x="180" y="157" text-anchor="middle" class="label">R1</text><text x="480" y="357" text-anchor="middle" class="label">R2</text><text x="780" y="157" text-anchor="middle" class="label">R3</text>
+<path d="M180 192 V250 M780 192 V250" class="line"/>
+<rect x="95" y="250" width="170" height="64" rx="10" class="pc"/><text x="180" y="275" text-anchor="middle" class="label">PC1</text><text x="180" y="298" text-anchor="middle" class="ip">192.168.10.10</text>
+<rect x="695" y="250" width="170" height="64" rx="10" class="pc"/><text x="780" y="275" text-anchor="middle" class="label">PC2</text><text x="780" y="298" text-anchor="middle" class="ip">192.168.20.10</text>
+<rect x="340" y="105" width="170" height="30" rx="6" fill="#e2e8f0"/><text x="425" y="125" text-anchor="middle" class="ip">192.168.30.0/30</text>
+<rect x="250" y="235" width="180" height="30" rx="6" fill="#e2e8f0"/><text x="340" y="255" text-anchor="middle" class="ip">192.168.100.0/30</text>
+<rect x="535" y="235" width="180" height="30" rx="6" fill="#e2e8f0"/><text x="625" y="255" text-anchor="middle" class="ip">192.168.200.0/30</text>
+<text x="180" y="340" text-anchor="middle" class="small">LAN1 : 192.168.10.0/24</text><text x="780" y="340" text-anchor="middle" class="small">LAN2 : 192.168.20.0/24</text>
+<text x="550" y="440" text-anchor="middle" class="small">Le triangle fournit deux chemins possibles entre les LAN.</text><text x="550" y="465" text-anchor="middle" class="small">Le lien direct R1–R3 est le lien coupé pendant le test.</text></svg>
